@@ -1,0 +1,122 @@
+.main_body_formular {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.main_body_formular form {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.main_body_formular form input {
+    width: 100%;
+}
+
+.main_body_formular p {
+    font-size: small;
+}
+
+.name_info {
+    display: flex;
+    justify-content:space-between;
+    gap: 80px;
+    margin: 10px 0px 10px 0px;
+}
+
+.name_info input {
+    height: 50px;
+}
+
+.username {
+    margin: 10px 0px 10px 0px;
+}
+
+.username input {
+    height: 50px;
+}
+
+.email {
+    margin: 10px 0px 10px 0px;
+}
+
+.email input {
+    height: 50px;
+}
+
+.personal_info{
+    display: flex;
+    justify-content:space-between;
+    gap: 80px;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+.personal_info input {
+    height: 50px;
+}
+
+.personal_info select {
+    width: 100%;
+    height: 60px;
+    font-size: large;
+}
+
+.adress {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.adress input {
+    height: 50px;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.password input {
+    height: 50px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar_description_txt {
+    display: flex;
+    flex-direction: column;
+}
+
+#avatar {
+    width: 50%;
+}
+
+.submit_formular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+}
+
+#submitFormular {
+    width: 50%;
+    height: 30px;
+    font-size: large;
+    color: white;
+    background-color: #5200FF;
+    border: none;
+    border-radius: 5px;
+}
